@@ -174,9 +174,8 @@ function App() {
           new features!
         </p>
         <div className="qr-container">
-          <img
-            src="qr code.jpeg"
-            alt="QR Code for donations"
+          <img src="qrcode.jpeg" 
+           alt="QR Code"  
             className="qr-image"
             onError={(e) => {
               e.target.style.display = "none";
