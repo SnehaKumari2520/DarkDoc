@@ -192,7 +192,7 @@ function App() {
           </div>
         </div>
         <p className="donation-note">
-          Replace this placeholder with your actual payment QR code
+         Buy your developer friend a chocolate
         </p>
       </div>
     </div>
