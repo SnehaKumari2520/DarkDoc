@@ -1,16 +1,19 @@
-# React + Vite
+# 🌙 DarkDoc - PDF Dark Mode Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DarkDoc** is a web-based utility designed for readers and developers who prefer dark mode but often find themselves squinting at bright white PDF documents. This tool converts any PDF into a high-contrast, eye-friendly dark version for both viewing and downloading.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Key Features
+- **Instant Conversion:** Upload any PDF and see it in dark mode immediately.
+- **Toggle View:** Switch between original and dark mode with a single click using CSS filters.
+- **Permanent Download:** Uses client-side processing to generate a new PDF with inverted colors for offline use.
+- **Privacy First:** All processing happens in your browser—no files are uploaded to a server.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Framework:** React.js
+- **PDF Rendering:** [PDF.js](https://mozilla.github.io/pdf.js/) (Rendering pages via HTML5 Canvas)
+- **PDF Generation:** [jsPDF](https://github.com/parallax/jsPDF) (For reconstructing the inverted document)
+- **Styling:** CSS3 (Invert & Hue-rotate filters)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
